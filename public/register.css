@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    max-width: 25rem;
+    margin: auto;
+}
+
+#background-video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.mb-3 {
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.form-floating.mb-3 label {
+    color: black;
+}
