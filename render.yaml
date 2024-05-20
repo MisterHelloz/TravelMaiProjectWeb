@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-20T16:28:28Z
+services:
+- type: web
+  name: TravelMaiProject1
+  runtime: node
+  repo: https://github.com/MisterHelloz/TravelMaiProject
+  plan: free
+  region: singapore
+  buildCommand: yarn
+  startCommand: npm main
+version: "1"
