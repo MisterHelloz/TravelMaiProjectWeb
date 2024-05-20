@@ -7,5 +7,5 @@ services:
   plan: free
   region: singapore
   buildCommand: yarn
-  startCommand: npm main
+  startCommand: npm login.js
 version: "1"
